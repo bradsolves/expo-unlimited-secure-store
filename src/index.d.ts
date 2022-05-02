@@ -1,5 +1,5 @@
 import { keychainAccessibilityConstant} from 'expo-secure-store';
-declare module "@neverdull-agency/expo-unlimited-secure-store" {
+declare module "@bradsolves/expo-unlimited-secure-store" {
     export interface Options {
       replacementCharacter?: string;
       replacer?: (key: string, replacementCharacter: string) => string;

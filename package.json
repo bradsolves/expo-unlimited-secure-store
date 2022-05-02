@@ -1,5 +1,5 @@
 {
-  "name": "@neverdull-agency/expo-unlimited-secure-store",
+  "name": "@bradsolves/expo-unlimited-secure-store",
   "version": "1.0.9",
   "description": "An 'unlimited' secure store engine for expo projects, also compatible with redux-persist. (Expo's SecureStore was limited to 2KB in SDK v33)",
   "main": "src/index.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
       "type": "git",
-      "url": "git+https://github.com/neverdull-agency/expo-unlimited-secure-store.git"
+      "url": "git+https://github.com/bradsolves/expo-unlimited-secure-store.git"
   },
   "keywords": [
       "expo",
@@ -32,7 +32,7 @@
   "author": "Istvan Szilagyi <istvan@neverdull.nl>",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/neverdull-agency/expo-unlimited-secure-store/issues"
+      "url": "https://github.com/bradsolves/expo-unlimited-secure-store/issues"
   },
-  "homepage": "https://github.com/neverdull-agency/expo-unlimited-secure-store#readme"
+  "homepage": "https://github.com/bradsolves/expo-unlimited-secure-store#readme"
 }
