@@ -14,7 +14,7 @@ Main reason for creating this module is that Expo's SecureStore will have limita
 ## Installation
 
 ```bash
-npm i @neverdull-agency/expo-unlimited-secure-store
+npm i @bradsolves/expo-unlimited-secure-store
 ```
 
 It has two peer dependencies mentioned above (SecureStore & FileSystem) which you will have to install manually to your project if you haven't did already:
@@ -31,7 +31,7 @@ expo install expo-file-system
 If you have some data that you want to store securely and read/delete it any time later:
 
 ```js
-import createSecureStore from '@neverdull-agency/expo-unlimited-secure-store';
+import createSecureStore from '@bradsolves/expo-unlimited-secure-store';
 
 const secureStore = createSecureStore();
 
@@ -59,7 +59,7 @@ secureStore.removeItem(key).then(() => {
 If you are using redux, and redux-persist you can use this as the storage engine in the following way
 
 ```js
-import createSecureStore from '@neverdull-agency/expo-unlimited-secure-store';
+import createSecureStore from '@bradsolves/expo-unlimited-secure-store';
 
 import { createStore } from 'redux';
 import { persistStore, persistCombineReducers } from 'redux-persist';
