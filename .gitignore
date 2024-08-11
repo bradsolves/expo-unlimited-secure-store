@@ -65,3 +65,6 @@ typings/
 
 # VisualStudio Code history
 .history
+
+# expo folder
+.expo/
