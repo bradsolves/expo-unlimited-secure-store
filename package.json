@@ -12,7 +12,8 @@
     "crypto-js": "^3.3.0",
     "expo": "^51.0.0",
     "react-native": "0.74.5",
-    "react": "18.2.0"
+    "react": "18.2.0",
+    "expo-file-system": "~17.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
