@@ -1,6 +1,6 @@
 {
   "name": "@bradsolves/expo-unlimited-secure-store",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "An 'unlimited' secure store engine for expo projects, also compatible with redux-persist. (Expo's SecureStore was limited to 2KB in SDK v33)",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -11,8 +11,8 @@
   "dependencies": {
     "crypto-js": "^3.3.0",
     "expo": "^54.0.25",
-    "expo-file-system": "~19.0.19",
-    "expo-secure-store": "~15.0.7",
+    "expo-file-system": "^15.4.4",
+    "expo-secure-store": "^12.3.1",
     "react": "19.1.0",
     "react-native": "0.81.5"
   },
